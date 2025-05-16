@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MILO</title>
+
+  <!-- Tailwind & Custom CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./output.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous"/>
+
+  <!-- Flowbite CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="font-primary">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <nav class="max-w-[1440px] mx-auto px-4 py-4 flex items-center justify-between">
+
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-2 text-2xl font-bold">
+        <img src="./img/generate milo logo.png" alt="MILO Logo" class="h-12" />
+        <span class="text-[rgb(115,53,9)]">MILO</span>
+      </a>
+
+      <!-- Menu -->
+      <ul class="hidden md:flex space-x-8">
+        <li><a href="#home" class="font-bold text-black hover:bg-green-500 px-2 py-1 rounded transition">DISCOVER RECIPE</a></li>
+        <li><a href="#milo" class="font-bold text-black hover:bg-green-500 px-2 py-1 rounded transition">MILO & NUTRITION</a></li>
+        <li><a href="#exploreProduct" class="font-bold text-black hover:bg-green-500 px-2 py-1 rounded transition">EXPLORE PRODUCTS</a></li>
+        <li><a href="#aboutMilo" class="font-bold text-black hover:bg-green-500 px-2 py-1 rounded transition">ABOUT MILO</a></li>
+        <li><a href="#blog" class="font-bold text-black hover:bg-green-500 px-2 py-1 rounded transition">ARTICLES</a></li>
+      </ul>
+
+      <!-- Auth Buttons -->
+      <div class="space-x-4">
+        <button id="open-login-modal" class="font-bold text-black hover:bg-green-500 px-2 py-1 rounded transition md:ml-4">Login</button>
+        <a href="signup.html" class="bg-green-500 text-white hover:bg-green-800 px-4 py-2 rounded-full">Register</a>
+      </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner relative flex items-center justify-center text-white text-center">
+    <div class="container px-4">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Welcome to MILO</h2>
+      <p class="max-w-xl mx-auto text-lg md:text-xl drop-shadow-sm">
+        Nourishing Generations with the Power of MILO.
+      </p>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+  <section id="home" class="max-w-[1440px] mx-auto px-4 py-28 flex flex-col md:flex-row items-center gap-12">
+
+    <!-- Left Content -->
+    <div class="md:w-1/2 mb-8 md:mb-0 space-y-8" data-aos="fade-right">
+      <h2 class="text-4xl font-bold text-[rgb(115,53,9)]">Discover the Power of MILO</h2>
+      <p class="font-bold text-lg text-black-700">
+        MILO is more than just a drink; it's a source of energy and nutrition that fuels your day. Packed with essential vitamins and minerals, MILO is designed to support an active lifestyle.
+      </p>
+      <div class="flex items-center gap-4">
+        <img src="./img/generate milo logo.png" alt="Small MILO Image" class="w-16 h-16 rounded-full shadow-md" />
+        <p class="text-black-700">
+          Experience the rich taste and energy of MILO in every sip. Perfect for all ages!
+        </p>
+      </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="md:w-1/2" data-aos="fade-left">
+      <img src="./img/zmocawrs.png" alt="VPN Banner" class="w-full" />
+    </div>
+  </section>
+
+  <h1 class="text-3d">Explore
+Your Champ's Passion For Sports</h1>
+
+
+<!-- Carousel Section -->
+<div id="default-carousel" class="relative w-full max-w-3xl mx-auto my-12" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-72 md:h-[32rem] overflow-hidden rounded-lg flex items-center justify-center bg-black">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/1 (1).png" class="block max-h-72 md:max-h-[32rem] w-auto mx-auto" alt="Slide 1">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/2 (2).png" class="block max-h-72 md:max-h-[32rem] w-auto mx-auto" alt="Slide 2">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/2 (3).png" class="block max-h-72 md:max-h-[32rem] w-auto mx-auto" alt="Slide 3">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/1 (4).png" class="block max-h-72 md:max-h-[32rem] w-auto mx-auto" alt="Slide 4">
+        </div>
+        <!-- Item 5 (example for more images) -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/2 (1).png" class="block max-h-72 md:max-h-[32rem] w-auto mx-auto" alt="Slide 5">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+<!-- Login Modal -->
+<div id="login-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 hidden">
+  <div class="bg-white rounded-lg shadow-lg p-8 w-full max-w-md flex flex-col items-center relative">
+    <button id="close-login-modal" class="absolute top-2 right-2 text-gray-500 hover:text-red-600 text-2xl">&times;</button>
+    <img src="./img/generate milo logo.png" alt="MILO Logo" class="w-16 h-16 mb-4 rounded-full shadow-md bg-white" />
+    <form class="w-full flex flex-col gap-4">
+      <div>
+        <label for="login-email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+        <input type="email" id="login-email" name="login-email" required
+          class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-green-400 text-black bg-white"
+          placeholder="Enter your email">
+      </div>
+      <div>
+        <label for="login-password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+        <input type="password" id="login-password" name="login-password" required
+          class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-green-400 text-black bg-white"
+          placeholder="Enter your password">
+      </div>
+      <button type="submit" class="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 rounded transition">Login</button>
+    </form>
+    <p class="mt-4 text-sm text-gray-600">Don't have an account? <a href="Signup.html" class="text-green-700 hover:underline">Sign up</a></p>
+  </div>
+</div>
+
+<!-- Script for modal functionality -->
+<script>
+  // Open modal
+  document.getElementById('open-login-modal').onclick = function() {
+    document.getElementById('login-modal').classList.remove('hidden');
+  };
+  // Close modal
+  document.getElementById('close-login-modal').onclick = function() {
+    document.getElementById('login-modal').classList.add('hidden');
+  };
+  // Optional: Close modal when clicking outside the modal box
+  document.getElementById('login-modal').onclick = function(e) {
+    if (e.target === this) this.classList.add('hidden');
+  };
+</script>
+
+  
+
+   <!-- Milo Achievements Section -->
+<section class="max-w-[1440px] mx-auto px-4 py-20" id="aboutMilo">
+  <h2 class="text-3xl md:text-4xl font-bold text-center text-[rgb(115,53,9)] mb-12">MILO Achievements</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+    <!-- Locations -->
+    <div class="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center">
+      <div class="text-green-600 text-5xl mb-4">
+        <i class="fas fa-map-marker-alt"></i>
+      </div>
+      <h3 class="text-2xl font-bold mb-2">50+ Countries</h3>
+      <p class="text-gray-600">MILO is enjoyed in over 50 countries worldwide, bringing energy and nutrition to millions.</p>
+    </div>
+    <!-- Customer Rate -->
+    <div class="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center">
+      <div class="text-green-600 text-5xl mb-4">
+        <i class="fas fa-users"></i>
+      </div>
+      <h3 class="text-2xl font-bold mb-2">98% Satisfaction</h3>
+      <p class="text-gray-600">Our customers love MILO! 98% satisfaction rate from families and athletes around the globe.</p>
+    </div>
+    <!-- Products -->
+    <div class="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center">
+      <div class="text-green-600 text-5xl mb-4">
+        <i class="fas fa-box-open"></i>
+      </div>
+      <h3 class="text-2xl font-bold mb-2">20+ Products</h3>
+      <p class="text-gray-600">A wide range of MILO products: drinks, bars, cereals, and more to suit every lifestyle.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Milo Nutrition Section -->
+  <section id="milo" class="max-w-[1440px] mx-auto px-4 py-20">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-[rgb(115,53,9)] mb-12">MILO & Nutrition</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="flex items-center justify-center">
+        <img src="./img/1 (2).png" alt="MILO Nutrition" class="w-full max-w-md rounded-lg shadow-lg" />
+      </div>
+      <div class="flex flex-col justify-center">
+        <h3 class="text-2xl font-bold mb-4">Why Choose MILO?</h3>
+        <p class="text-gray-600 mb-4">MILO is packed with essential vitamins and minerals that support your active lifestyle. It's not just a drink; it's a source of energy and nutrition.</p>
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>Rich in Vitamins:</strong> Contains Vitamin B1, B2, B3, C, and E.</li>
+          <li><strong>High in Calcium:</strong> Supports strong bones and teeth.</li>
+          <li><strong>Iron & Zinc:</strong> Essential for growth and development.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+ <!-------Global Network Section -------->
+          <section class="section-container mb-12" id="exploreProduct">
+            <!------Section header---------->
+            <div class="text-center mb-16">
+                
+  <h2 class="text-3d font-bold text-heading-text mb-6 md:w-1/2 mx-auto text-center ">Milo Customers Worldwide</h2>
+          <div class="mb-10">
+            <img src="./img/map (3).png" alt="map image" class="w-full">
+
+            <!-- Footer Section -->
+<footer class="bg-[rgb(115,53,9)] text-white mt-16">
+  <div class="max-w-[1440px] mx-auto px-4 py-12 flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
+    <!-- Milo Icon & Product Links (Left) -->
+    <div class="flex flex-col items-center md:items-start mb-6 md:mb-0 min-w-[180px]">
+      <img src="./img/generate milo logo.png" alt="MILO Icon" class="w-16 h-16 mb-4 rounded-full shadow-lg bg-white p-2">
+      <span class="font-bold text-xl mb-4">MILO</span>
+      <!-- Product Column (Left) -->
+      <div>
+        <h3 class="font-medium text-lg mb-2">Product</h3>
+        <ul class="space-y-2 text-primary-text">
+          <li><a href="#" class="hover:text-primary">Discover Recipe</a></li>
+          <li><a href="#" class="hover:text-primary">Milo & Nutrition </a></li>
+          <li><a href="#" class="hover:text-primary">Locations</a></li>
+          <li><a href="#" class="hover:text-primary">Explore Produucts</a></li>
+          <li><a href="#" class="hover:text-primary">Updates</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Signup & Social (Center) -->
+    <div class="flex-1 flex flex-col items-center">
+      <h3 class="text-2xl font-bold mb-2">Sign up for Promo Updates!</h3>
+      <p class="mb-4 text-center">Get the latest MILO offers, news, and updates directly to your inbox.</p>
+      <form class="flex flex-col sm:flex-row gap-2 w-full max-w-md mx-auto mb-4">
+        <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-l-md text-black flex-1" required>
+        <button type="submit" class="bg-green-500 hover:bg-green-700 px-6 py-2 rounded-r-md font-bold">Sign Up</button>
+      </form>
+      <div class="flex gap-4 mt-2">
+        <a href="#" class="hover:text-green-400 text-2xl"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-green-400 text-2xl"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-green-400 text-2xl"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-green-400 text-2xl"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <!-- Nestle Copyright & Product Links (Right) -->
+    <div class="flex flex-col items-center md:items-end mt-6 md:mt-0 min-w-[180px]">
+      <span class="mb-2">A proud product of</span>
+      <img src="./img/hnet9kmg.png" alt="Nestle Logo" class="w-20 mb-2 bg-white rounded p-1">
+      <span class="text-sm mb-4">&copy; 2025 Nestlé. All rights reserved.Nwogboprince.</span>
+      <!-- Product Column (Right) -->
+      <div>
+        <h3 class="font-medium text-lg mb-2">Product</h3>
+        <ul class="space-y-2 text-primary-text">
+          <li><a href="#" class="hover:text-primary">Discover Recipe</a></li>
+          <li><a href="#" class="hover:text-primary">Milo & Nutrition</a></li>
+          <li><a href="#" class="hover:text-primary">Locations</a></li>
+          <li><a href="#" class="hover:text-primary">Explore Products</a></li>
+          <li><a href="#" class="hover:text-primary">Updates</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- AOS Init -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      // Open login modal if #login in URL
+     if (window.location.hash === "#login") {
+    setTimeout(function() {
+      const modal = document.getElementById('login-modal');
+      if (modal) modal.classList.remove('hidden');
+      // Optionally, remove the hash from the URL
+      history.replaceState(null, null, window.location.pathname);
+    }, 300);
+  }
+  // Initialize AOS
+  AOS.init();
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,37 @@
+
+/* style.css */
+
+.banner {
+  background: url('./img/08zj1yvw.png') no-repeat center center/cover;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    background-size: contain;
+  }
+}
+
+
+.text-3d {
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold;
+    color: #733509; /* Primary MILO color */
+    text-transform: uppercase;
+    text-shadow: 
+        1px 1px 0 #d4a373, /* Light shadow */
+        2px 2px 0 #b07d4f, /* Medium shadow */
+        3px 3px 0 #8c5a2b, /* Darker shadow */
+        4px 4px 0 #733509; /* Deep shadow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure it takes full height of the container */
+}
