@@ -136,7 +136,7 @@ If you’re looking for someone who can:
 - Deliver clean, maintainable, and scalable code
 
 **Let’s connect!**  
-Feel free to reach out via [GitHub](https://github.com/) or the contact links in the footer.
+Feel free to reach out via [GitHub](https://github.com/NwogboPrince) or the contact links in the footer.
 
 ---
 
